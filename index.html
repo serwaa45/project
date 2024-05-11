@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="capstone.css">
+</head>
+<body>
+  <main class=" container mx-auto h-full px-0 flex flex-col">
+     <header id="navbar" class="bg-gray-100 p-2 justify-around"> 
+       <div class="flex items-center ml-6">
+            <a href="langpg.html"><img style="height: 20px; width: 20px;" src="globe.svg"></a>
+            <a href="langpg.html">  <h1>English</h1></a>
+            </div> 
+            <div class="flex gap-4">
+              <h1>Partner with Bolt as a:</h1>
+                <a href="">  <h1 class="text-emerald-600 font-medium">Courier</h1></a>
+                <a href=""> <h1 class="text-emerald-600 font-medium">Restaurant or store</h1></a>
+            </div> 
+     </header>
+     <section class="flex p-4 border-2 justify-between">
+        <div class="order-1 flex">
+            <a href=""> <img id="icon" style="height: 30px; width: 20px;" src="https://cdns.iconmonstr.com/wp-content/releases/preview/7.1.0/240/iconmonstr-line-three-horizontal-lined.png"></a>
+        </div>
+        <div class=" order-2 lg:order-1 md:self-start" >
+            <a id="boltfood" href=""> <img style="height: 30px; width: 150px;" src="https://food.bolt.eu/assets/src/assets/images/logo-horizontal.e228cf6df32dd2630e6408ddc7bd7d15@2x.png"></a>
+        </div>
+        <div style="margin-right: 100px;" class="gap-4 flex lg:order-2 order-3">
+             <a id="pop1" class="hidden xl:flex gap-4 border-2 p-2 px-4 rounded-3xl bg-gray-100 font-medium" href=""> <div> Get the app</div> </a>
+                <a class=" hidden lg:flex xl:flex gap-4 border-2 p-2 px-4 rounded-3xl items-center bg-emerald-500 text-white" href=""> <div>Log in or sign up</div></a>
+    </section>
+    <section  id="sec" class="relative flex flex-col grow ">
+        <img style=" width: 100%;" id="bpic" class="h-screen sm:h-full object-cover" src="https://food.bolt.eu/img/destination-bg@1x.jpg">
+        </div>
+          <div id="text1" class="absolute font-bold text-4xl " style="top: 60px; left: 60px;">
+           <h1 class=""> The food you</h1>
+           <h1 id="love" class="sm: flex justify-center items-center"> love,</h1>
+           <h1> Delivered fast </h1>
+         </div>
+         <div id="sbar" style="top: 260px; left: 20px;" class="search-container absolute ">
+            <input id="ibar" style="height: 50px;width: 280px; left: 400px;" type="text" class="search-input rounded-md pl-8" placeholder=" Enter your address">
+            <img class="absolute" style="top: 28px; left: 10px;transform: translateY(-50%);" src="bolt.eu.svg">
+            <button class="border-2 text-white" style=" padding: 10px 20px;border-radius: 5px; background-color: #007bff; margin-top: 20px;" onclick="showInfo()">Click here</button>
+
+        </div>
+        </section>
+        <aside style="margin-top: 40px; margin-left: 120px;" id="side" class="flex p-4 gap-6">
+          <div class="gap-4" id="socials">
+            <a href=""> <img class="border-2 p-2" style="border-radius: 50%;" src="svg-gobbler (1).svg"></a>
+            <a href=""> <img class="border-2 p-2" style="border-radius: 50%;" src="svg-gobbler (3).svg"></a>
+            <a href=""> <img class="border-2 p-2" style="border-radius: 50%;" src="svg-gobbler (4).svg"></a>
+            <a href=""> <img class="border-2 p-2" style="border-radius: 50%;" src="svg-gobbler (5).svg"></a>
+            <a href=""><img class="border-2 p-2" style="border-radius: 50%;" src="twitter.svg">
+          </div>
+          <div id="others" style="margin-left: 250px;" class="flex gap-2">
+             <a href=""><h1 class="border-2 p-3 bg-gray-100 rounded-3xl">Get the Bolt app</h1></a>
+             <a href=""><h1 class="border-2 p-3 bg-gray-100 rounded-3xl" >Get the Bolt Food app</h1></a>
+             <a href=""><h1 class="border-2 p-3 bg-gray-100 rounded-3xl">Request a ride online</h1></a>
+          </div>
+        </aside>
+        <hr style="margin-left: 120px; margin-right: 150px;" class="my-4 border-t border-gray-300">
+        <footer class="hidden" style="margin-left: 150px;" id="bottom">
+        <span class="flex hidden">
+          <h1 class="hidden">© 2024 Bolt Technology OÜ</h1>
+          <div class="flex gap-6 hidden" style="margin-left: 500px;">
+          <a href="">Terms & Conditions</a>
+          <a href="">Privacy</a>
+          <a href="">Cookies</a>
+          <a href="">Security</a>
+          </div>
+         </span>
+        </footer>
+  <script src="script.js"></script>      
+</body>
+</html>
